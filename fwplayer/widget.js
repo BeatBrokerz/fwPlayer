@@ -1,10 +1,10 @@
-flexloader.extendApp(function ($, myApp, config) {
+flexloader.extendApp(function ($, App, config) {
 
     if (config.autoload) {
         flexloader.addCSS(config.script.basepath + "widget.css");
     }
 
-    myApp.addWidget('fwplayer', {
+    App.addWidget('fwplayer', {
 
         html: function (template, settings) {
 
@@ -142,8 +142,8 @@ flexloader.extendApp(function ($, myApp, config) {
                     : cartDiv.removeClass('full visible');
             };
 
-            myApp.on('bbflex-cart-updated', updateWidgetCart);
-            updateWidgetCart(myApp.Cart.data());
+            App.on('bbflex-cart-updated', updateWidgetCart);
+            updateWidgetCart(App.Cart.data());
 
         },
         getLayout: function (template, width, height, ratioHeight) {
