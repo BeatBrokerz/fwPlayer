@@ -14,7 +14,8 @@ Once you have a flex app configured for your page, follow these steps to use thi
 3. Link a "script" tag on your webpage to the "widget.js" file you just uploaded to your server.
 4. Also add a reference to the "widget.css" stylesheet you just uploaded to your webpage.
  
-> **Example** ```html
+> **Example** 
+> ```html
 > <script type="text/javascript" src="/path/to/widget.js"></script>
 > <link rel="stylesheet" type="text/css" href="/path/to/widget.css" />
 > ```
