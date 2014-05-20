@@ -3,6 +3,8 @@ Flex Widget: Standalone Player
 
 This is a standalone embedded music player for the flex framework. It has display formats for a range of different sizes, and it includes built in access to the full current playlist, licensing options, and shopping cart as well as all the standard song controls.
 
+* [VIEW DEMO](http://jsfiddle.net/beatbrokerz/ASL69/)
+
 ### Pre-requisites
 
 This widget requires a flex app to be installed to your webpage in order for it to work. Refer to the [flex installation guide](http://www.beatbrokerz.com/flex/start) for more information on how to set up your own app.
