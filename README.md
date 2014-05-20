@@ -14,7 +14,7 @@ Once you have a flex app configured for your page, follow these steps to use thi
 3. Add a script tag on your webpage to link to the "widget.js" file you just uploaded to your server.
 4. Also add a reference to the "widget.css" stylesheet you just uploaded to your webpage.
  
-> **Example** 
+> **Example:** 
 > ```html
 > <script type="text/javascript" src="/path/to/fwplayer/widget.js"></script>
 > <link rel="stylesheet" type="text/css" href="/path/to/fwplayer/widget.css" />
@@ -37,7 +37,7 @@ The widget supports the following settings:
 
 Add the widget inline with your content using any of the standard [widget display methods](http://www.beatbrokerz.com/flex/widgets#display-methods). 
 
-> **Example** 
+> **Example:** 
 > ```html
 > <div data-bbflex="widget:fwplayer,width:620,height:150"></div>
 > ```
