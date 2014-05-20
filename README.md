@@ -11,7 +11,7 @@ Once you have a flex app configured for your page, follow these steps to use thi
 
 1. Download the widget package .zip file
 2. Extract the contents and upload the files/folders to a public location on your webserver.
-3. Link a <script> tag on your webpage to the "widget.js" file you just uploaded to your server.
+3. Link a "script" tag on your webpage to the "widget.js" file you just uploaded to your server.
 4. Also add a reference to the "widget.css" stylesheet you just uploaded to your webpage.
  
 > ** Example **
