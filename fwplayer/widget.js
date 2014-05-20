@@ -46,7 +46,7 @@ flexloader.extendApp(function ($, App, config) {
                     <div class="fw-content-buttons">\
                       <div class="fw-button-tab nowplaying"><a content-div="fw-content-nowplaying" class="jp-button fw-button fw-button-nowplaying active" href="javascript:;"><i class="fwicon-info"></i><span class="button-text"> Now Playing</span></a></div>\
                       <div class="fw-button-tab playlist"><a content-div="fw-content-playlist" class="jp-button fw-button fw-button-playlist" href="javascript:;"><i class="fwicon-music"></i><span class="button-text"> Full Playlist</span></a></div>\
-                      <div class="fw-button-tab buynow"><a content-div="fw-content-buynow" class="jp-button fw-button fw-button-buynow" href="javascript:;"><i class="fwicon-dollar"></i><span class="button-text"> Buy Now</a></span></div>\
+                      <div class="fw-button-tab buynow"><a content-div="fw-content-buynow" class="jp-button fw-button fw-button-buynow" href="javascript:;"><i class="fwicon-dollar"></i><span class="button-text"> Buy Now</span></a></div>\
                     </div>\
                     <div class="fw-content-div fw-inner-content">\
                       <div class="fw-content fw-content-playlist">\
