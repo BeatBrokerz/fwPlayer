@@ -30,6 +30,6 @@ The widget supports the following settings:
 
 1. **width**: An integer value that defines the width of the widget when its rendered
 2. **height**: An integer value that defines the height of the widget when its rendered
-3. **cart**: A string value ('top', 'bottom', or 'off') which controls where the cart shows
+3. **cart**: A string value ('top', 'bottom', or 'off') which controls where the cart shows. Default: 'bottom'
 4. **theme**: A string value which allows you to define a custom [theme prefix](http://www.beatbrokerz.com/flex/widgets/theming) for the widget
 
