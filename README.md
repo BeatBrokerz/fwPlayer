@@ -3,7 +3,7 @@ Flex Widget: Standalone Player
 
 This is a standalone embedded music player for the flex framework. It has display formats for a range of different sizes, and it includes built in access to the full current playlist, licensing options, and shopping cart as well as all the standard song controls.
 
-### Usage Requirements
+### Pre-requisites
 
 This widget requires a flex app to be installed to your webpage in order for it to work. Refer to the [flex installation guide](http://www.beatbrokerz.com/flex/start) for more information on how to set up your own app.
 
@@ -28,8 +28,16 @@ This widget can also be loaded using the [widget autoloader](http://www.beatbrok
 
 The widget supports the following settings:
 
-1. **width**: An integer value that defines the width of the widget when its rendered
-2. **height**: An integer value that defines the height of the widget when its rendered
-3. **cart**: A string value ('top', 'bottom', or 'off') which controls where the cart shows. Default: 'bottom'
-4. **theme**: A string value which allows you to define a custom [theme prefix](http://www.beatbrokerz.com/flex/widgets/theming) for the widget
+1. **width**: Optional. An integer value that defines the width of the widget when its rendered
+2. **height**: Optional. An integer value that defines the height of the widget when its rendered
+3. **cart**: Optional. A string value ('top', 'bottom', or 'off') which controls where the cart shows. Default: 'bottom'
+4. **theme**: Optional. A string value which allows you to define a custom [theme prefix](http://www.beatbrokerz.com/flex/widgets/theming) for the widget
+ 
+### Usage Instructions
 
+Add the widget inline with your content using any of the standard [widget display methods](http://www.beatbrokerz.com/flex/widgets#display-methods). 
+
+> **Example** 
+> ```html
+> <div data-bbflex="widget:fwplayer,width:620,height:150"></div>
+> ```
