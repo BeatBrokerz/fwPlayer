@@ -43,3 +43,80 @@ Add the widget inline with your content using any of the standard [widget displa
 > ```html
 > <div data-bbflex="widget:fwplayer,width:620,height:150"></div>
 > ```
+
+### Theme & Structure Reference
+
+The rendered widget uses the following template structure and css classing.
+
+```html
+<div class="flex-player-cart-container">
+  <div class="flex-player-cart-container-inner">
+    <div class="cart-summary-wrap">
+      <span class="cart-totals">
+        <i class="fwicon-basket"></i> 0 Items: $0.00
+      </span>
+      <span class="cart-checkout">
+        <button class="cart-checkout-button btn btn-success btn-xs">
+          <span class="cart-checkout-button-text">
+            <i class="fwicon-right-circled"></i> Checkout
+          </span>
+        </button>
+      </span>
+    </div>
+  </div>
+  <div class="cart-list-wrap">\
+    <!-- Stock Cart Widget (http://www.beatbrokerz.com/flex/widgets/stock) -->
+  </div>
+</div>
+<div class="table-row preview">
+  <div class="table-cell fw-preview-area">
+    <div class="fw-content-image">
+      <img />
+    </div>
+    <div class="fw-content fw-content-nowplaying fw-outer-content reserved">
+      <div class="table"><div class="table-row"><div class="table-cell">
+        <div class="fw-nowplaying-producer"></div>
+        <div class="fw-nowplaying-songname"></div>
+        <div class="fw-nowplaying-genres"></div>
+      </div></div></div>
+    </div>
+    <div class="fw-content-buttons">
+      <div class="fw-button-tab nowplaying">
+        <a class="jp-button fw-button fw-button-nowplaying active">
+          <i class="fwicon-info"></i><span class="button-text"> Now Playing</span>
+        </a>
+      </div>
+      <div class="fw-button-tab playlist">
+        <a class="jp-button fw-button fw-button-playlist">
+          <i class="fwicon-music"></i><span class="button-text"> Full Playlist</span>
+        </a>
+      </div>
+      <div class="fw-button-tab buynow">
+        <a class="jp-button fw-button fw-button-buynow">
+          <i class="fwicon-dollar"></i><span class="button-text"> Buy Now</span>
+        </a>
+      </div>
+    </div>
+    <div class="fw-content-div fw-inner-content">
+      <div class="fw-content fw-content-playlist">
+        <!-- Stock Playlist Widget (http://www.beatbrokerz.com/flex/widgets/stock) -->
+      </div>
+      <div class="fw-content fw-content-nowplaying active">
+        <div class="table"><div class="table-row"><div class="table-cell">
+          <div class="fw-nowplaying-producer"></div>
+          <div class="fw-nowplaying-songname"></div>
+          <div class="fw-nowplaying-genres"></div>
+        </div></div></div>
+      </div>
+      <div class="fw-content fw-content-buynow">
+        <!-- Stock Licensing Widget (http://www.beatbrokerz.com/flex/widgets/stock) -->
+      </div>
+    </div>
+  </div>
+</div>
+<div class="table-row controls">
+  <div class="table-cell controls">
+    <!-- Stock Playbar Widget (http://www.beatbrokerz.com/flex/widgets/stock) -->
+  </div>
+</div>
+```
