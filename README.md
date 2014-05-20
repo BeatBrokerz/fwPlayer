@@ -5,6 +5,11 @@ This is a standalone embedded music player for the flex framework. It has displa
 
 * [VIEW DEMO](http://jsfiddle.net/beatbrokerz/ASL69/)
 
+<iframe
+  style="width: 100%; height: 300px"
+  src="http://jsfiddle.net/beatbrokerz/ASL69/">
+</iframe>
+
 ### Pre-requisites
 
 This widget requires a flex app to be installed to your webpage in order for it to work. Refer to the [flex installation guide](http://www.beatbrokerz.com/flex/start) for more information on how to set up your own app.
