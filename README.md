@@ -9,24 +9,50 @@ This is a standalone embedded music player for the flex framework. It supports a
 
 ### Pre-requisites
 
-This widget requires a flex app to be installed to your webpage in order for it to work. Refer to the [flex installation guide](http://www.beatbrokerz.com/flex/start) for more information on how to set up your own app.
+This widget requires a [flex app](http://www.beatbrokerz.com/flex) to be installed to your webpage in order for it to do anything useful. Refer to the [flex installation guide](http://www.beatbrokerz.com/flex/start) for more information on how to set up your own music app.
 
-Once you have a flex app configured for your page, follow these steps to use this widget:
+Once you have a flex app installed on your page, follow these steps to use this widget:
+
+### Autoload Usage
+
+This widget can be auto-loaded from the Beat Brokerz CDN. Use the following url in your autoload settings:
+
+```
+//www.beatbrokerz.com/flex/widget/fwplayer/widget.js
+```
+
+> You can use the [widget autoloader](http://www.beatbrokerz.com/flex/start/settings#autoloader) feature in your flex app settings (on Beat Brokerz) to autoload this widget automatically on every page your flex app is installed to.
+>
+> Or you can autoload it selectively on your pages using javascript:
+> ```javascript
+> flexloader.autoload('//www.beatbrokerz.com/flex/widget/fwplayer/widget.js');
+> ```
+
+### Widget Files / Controlled Loading
+
+If you want to load this widget from your own server or you want to explicitly control the resources that get loaded on your page, you'll need to do the following:
 
 1. Download the widget package [.zip file](https://github.com/beatbrokerz/flex-fwplayer/archive/master.zip)
 2. Extract the contents and upload the files/folders to a public location on your webserver.
-3. Add a script tag on your webpage to link to the "widget.js" file you just uploaded to your server.
-4. Also add a reference to the "widget.css" stylesheet you just uploaded to your webpage.
- 
-> **Example:** 
+
+* fwplayer/widget.js (autoload ready)
+* fwplayer/widget.css
+
+If you choose not to autoload, then you'll need to manually reference the required resources in your page like so:
+
 > ```html
 > <script type="text/javascript" src="/path/to/fwplayer/widget.js"></script>
 > <link rel="stylesheet" type="text/css" href="/path/to/fwplayer/widget.css" />
 > ```
 
-### Autoloading Support
+### Usage Instructions
 
-This widget can also be loaded using the [widget autoloader](http://www.beatbrokerz.com/flex/start/settings#autoloader) feature in your flex app settings. To autoload this widget, just enter the full url to your uploaded widget.js script into the autoloader section of your flex store configuration page. When autoloading this widget, all of its other resources (such as the css file) will automatically be added to your page for you.
+Once the widget is loaded on your page, display the widget where you want using any of the standard [widget display methods](http://www.beatbrokerz.com/flex/widgets#display-methods). 
+
+> **Embed Example:** 
+> ```html
+> <div data-bbflex="widget:fwplayer,width:620,height:150"></div>
+> ```
 
 ### Widget Settings
 
@@ -36,16 +62,8 @@ The widget supports the following settings:
 2. **height**: Optional. An integer value that defines the height of the widget when its rendered
 3. **cart**: Optional. A string value ('top', 'bottom', or 'off') which controls where the cart shows. Default: 'bottom'
 4. **theme**: Optional. A string value which allows you to define a custom [theme prefix](http://www.beatbrokerz.com/flex/widgets/theming) for the widget
+
  
-### Usage Instructions
-
-Add the widget inline with your content using any of the standard [widget display methods](http://www.beatbrokerz.com/flex/widgets#display-methods). 
-
-> **Example:** 
-> ```html
-> <div data-bbflex="widget:fwplayer,width:620,height:150"></div>
-> ```
-
 ### Theme & Structure Reference
 
 The rendered widget uses the following template structure and css classing.
