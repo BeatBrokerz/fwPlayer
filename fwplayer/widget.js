@@ -1,7 +1,7 @@
 flexloader.extendApp(function ($, App, config) {
 
     if (config.autoload) {
-        flexloader.addCSS(config.script.basepath + "widget.css");
+        flexloader.addResource({ src: config.script.basepath + "widget.css" });
     }
 
     App.addWidget('fwplayer', {
