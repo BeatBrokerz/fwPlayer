@@ -1,5 +1,14 @@
 /* Player Widget */
 
+.flex-widget-fwplayer *,
+.flex-widget-fwplayer *:before,
+.flex-widget-fwplayer *:after {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    text-shadow: none !important;
+}
+
 .fw-theme-default.flex-widget-fwplayer {
     background-color: #3A3B3C;
     background-color: rgba(0, 0, 0, 0.8);
