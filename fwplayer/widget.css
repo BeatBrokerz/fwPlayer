@@ -9,7 +9,7 @@
     text-shadow: none !important;
 }
 
-.flex-widget-fwplayer .flex-widget-container {
+.flex-widget-fwplayer > .flex-widget-container {
     display: table;
     position: relative;
     width: 100%;
